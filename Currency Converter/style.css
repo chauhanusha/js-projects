@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* the 1vh = 1% height of brower window, all items will be in center */
+    min-height: 100vh;
+    background-color: #e7d8c9;
+    
+}
+
+/* main box */
+.container{
+    background-color: #669bbc;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 45vh;
+    /* box-shadow: 5rem; */
+    /* background-color: transparent; */
+    /* border: 1px solid black; */
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    /* by clicking no outline is visible */
+    outline: none;
+    border-radius: 0.5rem;
+
+}
+
+form input{
+    border: 1px solid black;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+}
+
+.dropdown{
+    display: flex;
+    /* to align them in single line and space in each item */
+    justify-content: space-between;  
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+.select-container img{
+    max-width: 2rem;   
+    padding-left: 0.5rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    /* background-color: red; */
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+    background-color: transparent;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+form button{
+    height: 3rem;
+    background-color: #023047;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
