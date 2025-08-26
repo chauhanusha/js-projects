@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #565857;
+}
+
+.container{
+    /* means dynamic height the conatiner will occupy 70% area of document whatever the content is */
+    height: 70vh;  
+    display: flex;
+    /* will wrap the content according to space */
+    flex-wrap: wrap;   
+    /* to center the boxes */
+    justify-content: center;
+    align-items: center;  
+}
+
+.game{
+    /* vmin means that we provide 1% smaller area to the parent */
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    /* will wrap the content according to space */
+    flex-wrap: wrap;   
+    /* to center the boxes */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+
+.but{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.3) ;
+    font-size: 8vmin;
+    color: #124559;
+    background-color: #f5d3c8;
+}
+
+#reset{
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3) ;
+    font-size: 2vmin;
+    color: #124559;
+    margin-right: 10px;
+    background-color: #f5d3c8
+}
+
+#newgame{
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3) ;
+    font-size: 2vmin;
+    color: #124559;
+    margin-left: 10px;
+    background-color: #f5d3c8
+}
+
+.msgcontainer{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    /* this will not visible and not even occupy the place */
+    display: none;
+}
+
+#msg{
+    font-size: 8vmin;
+}
+
